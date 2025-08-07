@@ -10,7 +10,7 @@ export const Navbar = () => {
         </Link>
         <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
             <li>
-                <Link to="/" className={location.pathname === '/'?'text-[#ECBD47]':'text-[#E47A5D]'}>Inicio</Link>
+                <Link to="/" className={location.pathname === '/front_portafolio/'?'text-[#ECBD47]':'text-[#E47A5D]'}>Inicio</Link>
             </li>
             <li>
                 <Link to="/about" className={location.pathname === '/about'? 'text-[#ECBD47]':'text-[#E47A5D]'}>Sobre mí</Link>
